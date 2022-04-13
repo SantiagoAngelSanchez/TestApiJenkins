@@ -22,7 +22,8 @@ import static org.hamcrest.Matchers.*;
 @RunWith(SerenityRunner.class)
 public class SerenityInitialTest {
 
-    private static final String restApiUrl="http://localhost:5000/api";
+    //private static final String restApiUrl="http://localhost:5000/api";
+    private static final String restApiUrl="https://reqres.in/api";
     @Test
     public void getUsers(){
         Actor julian=Actor.named("julian the trainer").whoCan(CallAnApi.at(restApiUrl));
