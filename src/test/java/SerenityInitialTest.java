@@ -44,7 +44,7 @@ public class SerenityInitialTest {
         Actor julian=Actor.named("julian the trainer").whoCan(CallAnApi.at(restApiUrl));
         String registerUserInfo="{\n" +
                 "    \"name\": \"morpheus\",\n" +
-                "    \"job\": \"leader\"\n" +
+                "    \"job\": \"leader\",\n" +
                 "    \"email\": \"eve.holt@reqres.in\",\n" +
                 "    \"password\": \"pistol\"\n" +
                 "}";
